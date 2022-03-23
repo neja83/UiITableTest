@@ -1,16 +1,17 @@
 //
-//  CustomGoodsCell.swift
+//  ProductCell.swift
 //  UiITableTest
 //
-//  Created by Eugene Krapivenko on 17.03.2022.
+//  Created by Eugene Krapivenko on 23.03.2022.
 //
 
 import UIKit
 
-class CustomGoodsCell: UITableViewCell {
-
-    @IBOutlet weak var goodName: UILabel!
-    @IBOutlet weak var goodPrice: UILabel!
+class ProductCell: UITableViewCell {
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var discriptionLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,5 +23,4 @@ class CustomGoodsCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
 }
